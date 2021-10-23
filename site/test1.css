@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    margin-bottom: 300px;
+}
+
+#last{
+    margin: 0 0 80px 0;
+}
+
+.div1{
+    background-color: darkolivegreen;
+    height: 70px;
+    border: 10px black solid;
+    text-align: left;
+    width: 40%;
+    padding: 5px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.div2{
+    background-color: lightblue;
+    height: 70px;
+
+    border: 2px red solid;
+    
+}
+
+
+.container{
+    margin-top: 50px;
+    height: 600px;
+    width: 600px;
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+.c1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.c2{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 10px;
+    border: 1px solid black;
+    float: right;
+}
+
+.c3{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    clear:left;
+}
+
+.c4{
+    height: 100px;
+    width: 100px;
+    background-color: lightsalmon;
+    margin: 10px;
+    border: 1px solid black;
+    float: right;
+}
+
+
+.container2{
+    margin-top: 50px;
+    height: 600px;
+    width: 600px;
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+.wrapper{
+    position: relative;
+    border: 1px solid black;
+    height: 400px;
+    z-index: 2;
+}
+
+.c5{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.c6{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 10px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: -1;
+}
+
+.c7{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin: 10px;
+    border: 1px solid black;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.c8 {
+    height: 100px;
+    width: 100px;
+    background-color: lightsalmon;
+    margin: 10px;
+    border: 1px solid black;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: -1;
+}
+
+.c9 {
+    height: 100px;
+    width: 100px;
+    background-color: darkslategray;
+    margin: 10px;
+}

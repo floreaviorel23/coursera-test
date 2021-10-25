@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: darkgray;
+        }
+        .content{
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .col {
+            border: 1px solid black;
+            height: 60px;
+            background-color: coral;
+        }
+
+        @media (min-width: 1200px) {
+            .lg-3 {
+                width: 33.3%;
+                float: left;
+            }
+        }
+
+        @media (max-width: 1199px) {
+            .md-4 {
+                width: 25%;
+                float: left;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="lg-3 md-4 col"> <div class="content">Item 1</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 2</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 3</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 4</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 5</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 6</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 7</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 8</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 9</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 10</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 11</div> </div>
+        <div class="lg-3 md-4 col"> <div class="content">Item 12</div> </div>
+
+
+    </div>
+
+</body>
+
+</html>

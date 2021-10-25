@@ -144,3 +144,105 @@ body{
     background-color: darkslategray;
     margin: 10px;
 }
+
+
+
+
+
+
+
+
+
+.wrapper2{
+    display: flex;
+    border: 1px solid black;
+    height: 400px;
+    justify-content: center ;
+    align-items: flex-start;
+}
+
+.c10{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.c11{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 10px;
+    border: 1px solid black;
+    align-self: center;
+}
+
+.c12{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.c13 {
+    height: 100px;
+    width: 100px;
+    background-color: lightsalmon;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+
+.wrapper3{
+    display: grid;
+    border: 1px solid black;
+    grid-auto-rows: minmax(100px, auto);
+    grid-column-gap: 20px;
+}
+
+#side{
+    border: 1px solid black;   
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+
+#main{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
+
+
+
+#side1{
+    background-color: red;
+    border: 1px solid black;   
+    height: 150px
+}
+
+#side2{
+    background-color: red;
+    border: 1px solid black;   
+    height: 150px;
+}
+
+
+#main1{
+    background-color: purple;
+    border: 1px solid black;
+}
+
+#main2{
+    background-color: purple;
+    border: 1px solid black;
+}

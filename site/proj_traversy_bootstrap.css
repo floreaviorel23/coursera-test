@@ -1,0 +1,43 @@
+body{
+    /* margin-bottom: 500px; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-card-2{
+    background-color: #ff66b3;
+}
+
+.instructors-bg{
+    background-color: #66a3ff;
+}
+
+
+.low{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+
+
+
+
+@media (min-width: 768px){
+
+    .news-input{
+        width: 50%;
+    }
+    
+}
+
+
+@media (max-width: 776px){
+    .low{
+        position: absolute;
+        bottom: 5%;
+        left: 39%;
+    }
+}
